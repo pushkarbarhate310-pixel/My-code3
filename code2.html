@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/submit-page" method="post">
+  <!-- 1. Text Input -->
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <!-- 2. Password Input -->
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd"><br><br>
+
+  <!-- 3. Email Input -->
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <!-- 4. Number Input -->
+  <label for="quantity">Quantity (1 to 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+  <!-- 5. Date Input -->
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+  <!-- 6. Checkbox Input -->
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+
+  <!-- 7. Radio Input -->
+  <p>Choose your favorite Web language:</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+
+  <!-- 8. File Input -->
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+
+  <!-- 9. Submit Button -->
+  <input type="submit" value="Submit Form">
+
+  <!-- 10. Generic Button (usually for JavaScript) -->
+  <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+  <label for="volume">Volume:</label>
+  <input type="range" id="volume" name="volume" min="0" max="100">
+</form>
+
+</body>
+</html>
